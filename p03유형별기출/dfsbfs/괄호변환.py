@@ -19,7 +19,7 @@ def check_proper(p):
     for i in p:
         if i == '(':
             count += 1
-        else:
+        else:''
             if count == 0: # 쌍이 맞지 않는 경우에 False 반환
                 return False
             count -= 1
